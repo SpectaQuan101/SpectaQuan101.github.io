@@ -1,39 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Gael's Personal Website - Gallery</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+body {
+    background-color: #1a2a3a;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding: 40px 20px;
+}
 
-    <h1>Hi, I'm Gael!</h1>
-    <p>Welcome to my personal website for COMP 150.</p>
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+}
 
-    <!-- Navigation Bar -->
-    <nav class="nav-bar">
-        <a href="index.html" class="nav-link">About Me</a>
-        <a href="gallery.html" class="nav-link active">Gallery</a>
-    </nav>
+/* Jump Link Button */
+.nav-bar {
+    margin: 15px auto 25px auto;
+}
 
-    <!-- Gallery Box -->
-    <div class="box">
-        <h2>My Gallery</h2>
-        <div class="image-row">
-            <div class="image-item">
-                <img src="IMG_0129.jpeg" alt="LUC Winter">
-                <p class="img-desc">LUC Winter</p>
-            </div>
-            <div class="image-item">
-                <img src="IMG_6789.JPG" alt="Outdoors">
-                <p class="img-desc">Outdoors</p>
-            </div>
-            <div class="image-item">
-                <img src="IMG_6793.PNG" alt="Vacation">
-                <p class="img-desc">Vacation</p>
-            </div>
-        </div>
-    </div>
+.nav-link {
+    color: #ffffff;
+    background-color: #004080;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
 
-</body>
-</html>
+.nav-link:hover {
+    background-color: #0059b3;
+}
+
+/* Universal Container Box */
+.box {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 750px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Proportionally Large About Me Box */
+.about-box {
+    padding: 110px 40px;
+    min-height: 280px;
+}
+
+/* Spacer to push gallery down out of immediate view */
+.spacer {
+    height: 600px;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: #004080;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+}
+
+/* Gallery Layout */
+.image-row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+/* Individual Separated Image Cards */
+.image-item {
+    width: 31%;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.image-row img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.img-desc {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #333333;
+}
