@@ -14,7 +14,7 @@ body {
 h1 {
     font-family: "Times New Roman", Times, serif;
     font-size: 2.8rem;
-    color: #004080;
+    color: #5c9ce6 !important;
     margin-bottom: 5px;
 }
 
@@ -31,6 +31,12 @@ h1 {
 
 .header-box {
     padding: 35px;
+}
+
+.header-box p {
+    color: #ff69b4 !important;
+    font-size: 1.2rem;
+    margin-top: 5px;
 }
 
 /* Makes your About Me box balanced with light blue header and orange text */
