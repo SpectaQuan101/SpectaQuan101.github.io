@@ -27,6 +27,10 @@ h2 {
     padding-bottom: 5px;
 }
 
+p {
+    text-align: center;
+}
+
 .image-row {
     display: flex;
     gap: 10px;
