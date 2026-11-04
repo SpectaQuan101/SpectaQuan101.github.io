@@ -1,73 +1,39 @@
-body {
-    background-color: #1a2a3a;
-    color: #ffffff;
-    font-family: "Times New Roman", Times, serif;
-    text-align: center;
-    padding: 30px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gael's Personal Website - Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-h1 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 2.8rem;
-    margin-bottom: 5px;
-}
+    <h1>Hi, I'm Gael!</h1>
+    <p>Welcome to my personal website for COMP 150.</p>
 
-.box {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 25px;
-    margin: 20px auto;
-    max-width: 700px;
-    border-radius: 10px;
-    text-align: center;
-}
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <a href="index.html" class="nav-link">About Me</a>
+        <a href="gallery.html" class="nav-link active">Gallery</a>
+    </nav>
 
-/* Forces the About Me box to be roughly double the height */
-.about-box {
-    padding: 80px 30px;
-    min-height: 220px;
-}
+    <!-- Gallery Box -->
+    <div class="box">
+        <h2>My Gallery</h2>
+        <div class="image-row">
+            <div class="image-item">
+                <img src="IMG_0129.jpeg" alt="LUC Winter">
+                <p class="img-desc">LUC Winter</p>
+            </div>
+            <div class="image-item">
+                <img src="IMG_6789.JPG" alt="Outdoors">
+                <p class="img-desc">Outdoors</p>
+            </div>
+            <div class="image-item">
+                <img src="IMG_6793.PNG" alt="Vacation">
+                <p class="img-desc">Vacation</p>
+            </div>
+        </div>
+    </div>
 
-h2 {
-    font-family: "Times New Roman", Times, serif;
-    color: #004080;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-}
-
-p {
-    text-align: center;
-    font-size: 1.1rem;
-    font-family: "Times New Roman", Times, serif;
-}
-
-.image-row {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    align-items: stretch;
-    margin-top: 20px;
-}
-
-/* Gives each image and description its own separated card box */
-.image-item {
-    width: 30%;
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.image-row img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.img-desc {
-    font-size: 0.95rem;
-    margin-top: 8px;
-    margin-bottom: 0;
-    color: #333333;
-}
+</body>
+</html>
