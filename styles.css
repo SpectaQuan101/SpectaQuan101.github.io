@@ -16,12 +16,12 @@ h1 {
 .box {
     background-color: #ffffff;
     color: #000000;
-    padding: 25px;
-    margin: 20px auto;
-    max-width: 750px;
-    border-radius: 10px;
+    padding: 35px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 12px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
 .header-box {
@@ -34,58 +34,64 @@ h1 {
     min-height: 300px;
 }
 
+/* Extra large gallery box that centers nicely */
 .gallery-box {
-    padding: 40px 30px;
+    padding: 50px 40px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Spacer that pushes the gallery far down out of initial view */
+/* Spacer that pushes the gallery down to the middle/bottom */
 .spacer {
-    height: 800px;
+    height: 900px;
 }
 
 h2 {
     font-family: "Times New Roman", Times, serif;
     color: #004080;
     border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    font-size: 2rem;
 }
 
 p {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
 }
 
 .image-row {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     justify-content: center;
     align-items: stretch;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
-/* Gives each image and description its own separated card box */
+/* Much bigger image cards so photos and descriptions pop out */
 .image-item {
     width: 31%;
     background-color: #fcfcfc;
-    border: 1px solid #d0d0d0;
-    border-radius: 8px;
-    padding: 12px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border: 2px solid #d0d0d0;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
 }
 
 .image-row img {
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .img-desc {
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-bottom: 0;
     color: #004080;
 }
