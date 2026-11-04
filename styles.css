@@ -39,7 +39,6 @@ h1 {
     margin-top: 5px;
 }
 
-/* Makes your About Me box balanced with light blue header and orange text */
 .about-box {
     padding: 50px 40px;
 }
@@ -58,7 +57,6 @@ h1 {
     margin: 0 auto;
 }
 
-/* Fix gallery layout so images sit side by side and center inside the box */
 .gallery-box {
     padding: 60px 40px;
     min-height: 500px;
