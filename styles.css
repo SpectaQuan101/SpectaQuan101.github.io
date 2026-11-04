@@ -73,25 +73,24 @@ h1 {
     color: #004080;
 }
 
-/* Jump Link Button Style */
+/* Simple & Noticeable Jump Button */
 .nav-bar {
-    margin: 20px auto;
+    margin: 25px auto;
     text-align: center;
 }
 
 .nav-link {
     color: #ffffff;
-    background-color: #004080;
+    background-color: #0059b3;
     text-decoration: none;
-    padding: 12px 25px;
+    padding: 12px 28px;
     border-radius: 6px;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
     display: inline-block;
-    transition: background-color 0.2s ease;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .nav-link:hover {
-    background-color: #0059b3;
+    background-color: #0073e6;
 }
