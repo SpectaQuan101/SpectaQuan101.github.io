@@ -22,9 +22,9 @@ h1 {
     text-align: center;
 }
 
-/* This makes your About Me box taller */
+/* Made the About Me box roughly double the size */
 .about-box {
-    padding: 60px 25px;
+    padding: 70px 25px;
 }
 
 h2 {
@@ -42,14 +42,24 @@ p {
 
 .image-row {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 15px;
 }
 
-.image-row img {
+.image-item {
     width: 30%;
+}
+
+.image-row img {
+    width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+.img-desc {
+    font-size: 0.95rem;
+    margin-top: 8px;
+    color: #333333;
 }
