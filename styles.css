@@ -22,9 +22,10 @@ h1 {
     text-align: center;
 }
 
-/* Made the About Me box roughly double the size */
+/* Forces the About Me box to be roughly double the height */
 .about-box {
-    padding: 70px 25px;
+    padding: 80px 30px;
+    min-height: 220px;
 }
 
 h2 {
@@ -44,12 +45,18 @@ p {
     display: flex;
     gap: 15px;
     justify-content: center;
-    align-items: flex-start;
-    margin-top: 15px;
+    align-items: stretch;
+    margin-top: 20px;
 }
 
+/* Gives each image and description its own separated card box */
 .image-item {
     width: 30%;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .image-row img {
@@ -61,5 +68,6 @@ p {
 .img-desc {
     font-size: 0.95rem;
     margin-top: 8px;
+    margin-bottom: 0;
     color: #333333;
 }
