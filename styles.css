@@ -3,75 +3,61 @@ body {
     color: #ffffff;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    padding: 40px 20px;
+    padding: 30px;
 }
 
 h1 {
     font-family: "Times New Roman", Times, serif;
     font-size: 2.8rem;
+    color: #004080;
     margin-bottom: 5px;
 }
 
-/* Jump Link Button */
-.nav-bar {
-    margin: 15px auto 25px auto;
-}
-
-.nav-link {
-    color: #ffffff;
-    background-color: #004080;
-    text-decoration: none;
-    padding: 10px 22px;
-    border-radius: 5px;
-    font-size: 1.05rem;
-    font-family: "Times New Roman", Times, serif;
-    display: inline-block;
-    transition: background-color 0.2s ease;
-}
-
-.nav-link:hover {
-    background-color: #0059b3;
-}
-
-/* Universal Container Box */
 .box {
     background-color: #ffffff;
     color: #000000;
-    padding: 30px;
-    margin: 30px auto;
+    padding: 25px;
+    margin: 20px auto;
     max-width: 750px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-/* Proportionally Large About Me Box */
-.about-box {
-    padding: 110px 40px;
-    min-height: 280px;
+.header-box {
+    padding: 35px;
 }
 
-/* Spacer to push gallery down out of immediate view */
+/* Makes your About Me box big and tall */
+.about-box {
+    padding: 120px 30px;
+    min-height: 300px;
+}
+
+.gallery-box {
+    padding: 40px 30px;
+}
+
+/* Spacer that pushes the gallery far down out of initial view */
 .spacer {
-    height: 600px;
+    height: 800px;
 }
 
 h2 {
     font-family: "Times New Roman", Times, serif;
     color: #004080;
     border-bottom: 2px solid #ddd;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
     margin-bottom: 20px;
 }
 
 p {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
 }
 
-/* Gallery Layout */
 .image-row {
     display: flex;
     gap: 15px;
@@ -80,11 +66,11 @@ p {
     margin-top: 20px;
 }
 
-/* Individual Separated Image Cards */
+/* Gives each image and description its own separated card box */
 .image-item {
     width: 31%;
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
+    background-color: #fcfcfc;
+    border: 1px solid #d0d0d0;
     border-radius: 8px;
     padding: 12px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
@@ -97,8 +83,9 @@ p {
 }
 
 .img-desc {
-    font-size: 1rem;
+    font-size: 1.05rem;
+    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 0;
-    color: #333333;
+    color: #004080;
 }
