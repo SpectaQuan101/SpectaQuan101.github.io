@@ -1,9 +1,11 @@
 body {
+    background-color: #1a2a3a;
     background-image: url('Alaska.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;    color: #ffffff;
+    background-attachment: fixed;
+    color: #ffffff;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     padding: 30px;
